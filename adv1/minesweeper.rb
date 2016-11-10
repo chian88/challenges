@@ -38,8 +38,6 @@ class ValueError < StandardError ; end
 
 
 
-#inp = ['+-----+', '*   * |', '+-- --+']
-# Board.transform(inp)
-      
-inp = ['+-----+', '|X  * |', '+-----+']
+inp = ['+-----+', '*   * |', '+-- --+']
 Board.transform(inp)
+
