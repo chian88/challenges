@@ -36,8 +36,3 @@ end
 
 class ValueError < StandardError ; end
 
-
-
-inp = ['+-----+', '*   * |', '+-- --+']
-Board.transform(inp)
-

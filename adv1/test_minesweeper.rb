@@ -40,7 +40,7 @@ class MinesweeperTest < Minitest::Test
     assert_equal out, Board.transform(inp)
   end
   def test_transform6
-    
+  
     inp = ['+--+', '|**|', '|**|', '+--+']
     out = ['+--+', '|**|', '|**|', '+--+']
     assert_equal out, Board.transform(inp)
@@ -70,7 +70,7 @@ class MinesweeperTest < Minitest::Test
   end
 
   def test_different_len
-    
+    skip
     inp = ['+-+', '| |', '|*  |', '|  |', '+-+']
     assert_raises(ValueError) do
       Board.transform(inp)
